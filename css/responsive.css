@@ -1,0 +1,312 @@
+@charset "utf-8";
+/* CSS Document */
+
+@media (max-width : 1446px) {
+	.bantext{
+		top: 25vh;
+	}
+	.com_mar {
+		margin: 100px 0px;
+	}
+	.about_us_sec {
+		margin-top: 90px;
+	}
+	.inner_banner.thank_you {
+		min-height: 540px;
+	}
+	.thank_you .banner_div {
+		top: 24vh;
+	}
+	.carousel-inner h2 {
+		font-size: 40px;
+	}
+	.carousel-caption {
+		top: 33% !important;
+	}
+}
+
+@media (max-width : 1366px) {
+	.bantext h2 {
+		font-size: 39px;
+		line-height: 55px;
+	}
+	.header_div.home_page .max_width {
+		width: 90%;
+	}
+	#studcaro .carousel-item p:nth-child(1) {
+		width: 80%;
+		margin: auto;
+		margin-bottom: 20px;
+		line-height: 27px;
+	}
+	.carousel-caption{
+		top:32% !important;
+	}
+}
+
+@media (max-width : 990px) {
+	.aca_div {
+		height: auto;
+	}
+	.hilights .row {
+		margin-top: 0px;
+	}
+	.innerHilight {
+		margin: 20px 0px;
+	}
+	.team_content {
+		margin: 40px 0px;
+	}
+	.team_content h3 {
+		margin-top: 15px;
+	}
+	.row_space {
+		margin-bottom: 15px;
+	}
+	.com_mar {
+		margin: 50px 0px;
+	}
+	.inner_banner.our_team .banner_div {
+		top: 17vh;
+	}
+	.features h5 {
+		margin-bottom: 35px;
+	}
+	.ceomsg .col-md-4{
+		padding: 20px;
+	}
+	.ceomsg {
+		background-position: 66% 50%;
+    	min-height: 470px;
+	}
+	#footerhome {
+		padding: 25px 0px;
+		text-align: center;
+	}
+	.mobile_icon {
+		display: block;
+	}
+
+	#active_nav {
+		display: none;
+	}
+	.header_div {
+		height: 75px;
+		line-height: 60px;
+	}
+	.banner_div {
+		width: 95%;
+	}
+	.site_logo img {
+		width: 70%;
+	}
+	.col-md-5.d-flex.align-items-center {
+		justify-content: center;
+	}
+	.col-md-4.d-flex.justify-content-md-end.align-items-center {
+		justify-content: center;
+	}
+	.inner_banner.notice_board {
+		background-position: 84%;
+	}
+	.second_sec table {
+		width: 98%;
+		margin: auto;
+	}
+	.max_width {
+		width: 98%;
+	}
+	.bantext {
+		position: static;
+		color: #000;
+		text-align: center;
+		margin-top: 25px;
+	}
+	.about_us_sec {
+		background-position: 50% 10%;
+		background-size: 100%;
+	}
+	.bantext p {
+		font-size: 15px;
+		position: absolute;
+		top: 27%;
+		left: 15px;
+		color: #fff;
+	}
+	.bantext h2 {
+		font-size: 29px;
+		line-height: 42px;
+	}
+	.inner_banner {
+		background-position: center;
+		/* min-height: 420px; */
+	}
+	.banner_div h3{
+		font-size: 60px;
+	}
+	a.fixed img {
+		width: 40%;
+	}
+	.header_div.home_page .mobile_icon {
+		text-align: left;
+	}
+
+	.bannerimg.home_banner {
+		min-height: 500px;
+		background-position: center;
+	}
+
+	.home_banner_txt {
+		top: 33%;
+	}
+
+	.home_banner_txt h3 {
+		font-size: 45px;
+	}
+
+	.home_banner_txt img {
+		width: 10%;
+	}
+
+	.count_name {
+		margin-bottom: 25px;
+	}
+
+	.number_Sec {
+		padding-bottom: 35px;
+	}
+
+	.latest_news, .number_Sec, .director_sec {
+		margin-top: 50px;
+	}
+
+	.director_sec img + p {
+		margin-bottom: 45px;
+	}
+
+	.footer_home_sec ul li:last-child {
+		margin-bottom: 25px;
+	}
+
+	.footer_home_sec {
+		margin-top: 30px;
+	}
+
+	.campus_2, #overview {
+		margin-top: 50px;
+	}
+
+	.campus_2 p {
+		margin-bottom: 30px;
+	}
+
+	.about_over_view {
+		margin-bottom: 50px;
+	}
+
+	#campus .inner_banner {
+		background-position: 70%;
+	}
+
+	#campus .banner_div, .inner_banner.about_us .banner_div {
+		top: 17vh;
+	}
+
+	.inner_banner.gallery {
+		background-position: 90%;
+	}
+
+	#campus .banner_div {
+		top: 26vh;
+	}
+
+	.features .card-body {
+		min-height: auto;
+	}
+
+	.gal .nav-tabs {
+		margin: 50px 15px !important;
+	}
+
+	.text-left.innerHilight.inner-bg {
+		border-radius: 5px;
+	}
+
+	.text-left.innerHilight.bg-white {
+		min-height: auto !important;
+		border-radius: 5px;
+	}
+	.inner_banner.thank_you {
+		min-height: 500px;
+		background-position: 30%;
+	}
+	.thank_you .banner_div {
+		top: 25vh;
+	}
+	.thank_you .banner_div h3 {
+		font-size: 47px;
+	}
+	.thank_you .banner_div p {
+		font-size: 32px;
+	}
+	.team_content > .container, #dirdesk > .container {
+		background-position: 50% 12%;
+	}
+}
+
+@media (max-width : 768px) {
+	.bantext h2{
+	      line-height: 16px !important;
+    font-size: 10px !important;
+	}
+	.bantext p{
+	  font-size:8px;
+	  top:0px !important;
+    left: 0px;
+    color: #fff;
+	}
+	.carousel-caption{top:12% !important;}
+}
+@media (max-width : 500px) {
+	.inner_banner {
+		min-height: 350px;
+		background-position:right;
+	}
+	.about_us_sec {
+		margin-top: 60px;
+	}
+	.banner_div h3 {
+    margin-top: 202px;
+    font-size: 35px;
+}
+	a.fixed img {
+		width: 43%;
+	}
+	.bannerimg.home_banner {
+		min-height: 400px;
+	}
+	.inner_banner.thank_you {
+		min-height: 385px;
+	}
+	.thank_you .banner_div {
+		top: 19vh;
+	}
+	.thank_you .banner_div h3 {
+		font-size: 30px;
+	}
+	.thank_you .banner_div p {
+		font-size: 24px;
+	}
+
+	.careerInner{
+
+background-size: 136%;
+
+	}
+}
+@media (max-width : 395px) {
+	.inner_banner {
+		min-height: 300px;
+		background-position:right;
+	}
+}

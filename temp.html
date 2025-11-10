@@ -1,0 +1,101 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carousel</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        .carousel {
+            position: relative;
+            width: 80%;
+            max-width: 800px;
+            margin: 50px auto;
+            overflow: hidden;
+            border: 2px solid #ddd;
+            border-radius: 10px;
+        }
+
+        .carousel-images {
+            display: flex;
+            transition: transform 0.5s ease-in-out;
+        }
+
+        .carousel-images img {
+            width: 100%;
+            flex-shrink: 0;
+        }
+
+        .carousel-buttons {
+            position: absolute;
+            top: 50%;
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            transform: translateY(-50%);
+        }
+
+        .carousel-buttons button {
+            background-color: rgba(0, 0, 0, 0.5);
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+
+        .carousel-buttons button:hover {
+            background-color: rgba(0, 0, 0, 0.8);
+        }
+    </style>
+</head>
+<body>
+    <div class="carousel">
+        <div class="carousel-images" id="carouselImages">
+            <img src="image1.jpg" alt="Image 1">
+            <img src="image2.jpg" alt="Image 2">
+            <img src="image3.jpg" alt="Image 3">
+        </div>
+        <div class="carousel-buttons">
+            <button id="prevBtn">&lt;</button>
+            <button id="nextBtn">&gt;</button>
+        </div>
+    </div>
+
+    <script>
+
+        const carouselImages = document.getElementById('carouselImages');
+        const prevBtn = document.getElementById('prevBtn');
+        const nextBtn = document.getElementById('nextBtn');
+
+        let index = 0;
+
+        function showImage() {
+            const width = carouselImages.clientWidth;
+            carouselImages.style.transform = `translateX(${-index * width}px)`;
+        }
+
+        nextBtn.addEventListener('click', () => {
+            index = (index + 1) % carouselImages.children.length;
+            showImage();
+        });
+
+        prevBtn.addEventListener('click', () => {
+            index = (index - 1 + carouselImages.children.length) % carouselImages.children.length;
+            showImage();
+        });
+
+        window.addEventListener('resize', showImage);
+        
+        
+    </script>
+</body>
+</html>

@@ -1,0 +1,11 @@
+.header_div{
+  width: auto!important;
+}
+
+.header_div.row{
+  display: flex!important;
+}
+
+#footerhome.row{
+  display: flex!important;
+}

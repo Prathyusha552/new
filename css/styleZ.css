@@ -1,0 +1,447 @@
+body{
+	font-family: 'Roboto', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Roboto Slab', serif;
+}
+
+.about_us {
+	/* background-image: url(../img/aboutusbg.jpg); */
+  background-image: url(../img/aboutus-banner.html);
+  background-position: center;
+}
+@media screen and (max-width:760px){
+  .about_us {
+    background-image: url(../img/aboutus-mobilebanner.html);
+  }
+}
+
+
+.bannertext{
+  color: #fff;
+}
+.bgbanner{
+  min-height: 450px;
+}
+
+#aboutbanner{
+  background: url('../img/aboutusbg.jpg');
+
+}
+
+#admitbanner
+{
+  background: url('../img/admitbg.jpg');
+  background-position: 50%;
+
+}
+
+#careerbanner{
+    background: url('../img/careersbg.jpg');
+}
+
+#gallerybanner{
+    background: url('../img/gallerybg.html');
+}
+
+
+
+/* Parents Carousel */
+
+
+.client-carousel .client-carousel-item img{
+  display: inline-block;
+  width: auto;
+}
+
+.client-box{
+  position: relative;
+  color: #000;
+  background-color: #ffffff;
+  padding:4rem 3.28rem 3.28rem;
+}
+
+.image-quote{
+  position: absolute;
+  top:3.28rem;
+  right: 3.28rem;
+}
+
+.client-img{
+  position: relative;
+  z-index: 1;
+  margin:0 0 -3rem 2.6rem;
+  border-radius: 50%;
+}
+
+.client-title{
+  letter-spacing: 0;
+}
+
+.client-name{
+  font-size: 1.28rem;
+  line-height: 1;
+  color: #000 !important;
+}
+
+.client-description{
+  margin:1.5rem 0 0;
+  line-height: 1.71em;
+}
+
+#parentcaro {
+  /* background:url('../img/teachcaro.jpg'); */
+	background-color:#ccccccc2;
+  min-height:625px;
+}
+
+
+#parentcaro .client-company{
+  /* color:#ff7c7e !important; */
+	color:#419a48 !important;
+}
+
+#parentcaro .owl-dots{
+  text-align: center;
+  margin-top: 3rem;
+}
+
+#parentcaro .owl-dot{
+  display: inline-block;
+  vertical-align: top;
+   margin:0 0.6rem;
+}
+
+#parentcaro .owl-dot span{
+  display: block;
+  width: 0.8rem;
+  height: 0.8rem;
+  background-color: transparent;
+  border-radius: 50%;
+  border:0.1rem solid #419946;
+}
+
+#parentcaro h1{
+  color:#fff;
+  text-align: center;
+  margin-bottom:50px;
+  margin-top: 50px;
+}
+
+#parentcaro .owl-dot.active span{
+  background-color: #419946;
+}
+
+/*Parents Carousel End*/
+
+
+
+/* Teacher's Carousel */
+
+#teachercaro{
+  padding-bottom:69px;
+  padding-top:69px;
+  display: flex;
+  align-items: center;
+  background:#f7f7f7
+}
+
+#teachercaro h1{
+  color:#000;
+  text-align: center;
+  margin-bottom:80px;
+}
+.teach-carousel-item{
+  text-align: center;
+}
+
+.teach-carousel .teach-carousel-item img{
+  display: inline-block;
+  width: 100%;
+}
+.teach-name{
+  font-size: 20px;
+    font-weight: bold;
+    padding: 15px 8px 5px;
+    margin-bottom: 0px;
+    letter-spacing: 1px;
+}
+
+.teach-company{
+  font-size: 16px;
+      font-weight: bold;
+}
+
+.teach-box{
+  position: relative;
+  color: #ffffff;
+}
+
+.image-quote{
+  position: absolute;
+  top:3.28rem;
+  right: 3.28rem;
+}
+
+.teach-img{
+width: 100%;
+  z-index: 1;
+
+}
+
+.teach-title{
+padding-bottom: 6px;
+  /* letter-spacing: 0;
+position: relative;
+top: -70px;
+background: #419946;
+visibility: hidden; */
+}
+
+
+.center .teach-title{
+  visibility:visible;
+}
+
+.teach-title p{
+  margin:0px;
+	font-weight: normal;
+}
+
+.teach-box ul {
+	list-style-type: none;
+	padding: 0px;
+	margin: 0px;
+}
+
+.teach-box ul li {
+	display: inline-block;
+}
+
+.teach-box ul li a {
+    color: #636361;
+    font-size: 17px;
+    margin: 0px 8px;
+    transition: all 0.5s;
+}
+
+.teach-box ul li a:hover {
+    color: #fff;
+}
+
+.client-description{
+  margin:1.5rem 0 0;
+  line-height: 1.71em;
+	color: #000 !important;
+}
+
+@media (min-width:720px){
+  #teachercaro .col{
+    padding-left: 150px!important;
+    padding-right: 150px!important;
+  }
+
+  #teachercaro .owl-dots{
+    display: none;
+}
+}
+
+#teachercaro .owl-dots{
+  text-align: center;
+  margin-top: 1rem;
+}
+
+#teachercaro .owl-dot{
+  display: inline-block;
+  vertical-align: top;
+   margin:0 0.6rem;
+}
+
+#teachercaro .owl-dot span{
+  display: block;
+  width: 0.8rem;
+  height: 0.8rem;
+  background-color: transparent;
+  border-radius: 50%;
+  border:.1rem #78c6cb solid
+}
+
+#teachercaro .owl-dot.active span{
+  background-color: #78c6cb;
+}
+
+
+/* Teacher's Carousel End */
+
+/* ADMISSIONS PAGE */
+
+.admitInner{
+  padding:4rem!important;
+}
+
+/* ADMISSIONS PAGE End */
+
+
+.gal .nav-link {
+    color: #fff;
+    background-color: #818286;
+    opacity: 1;
+    border-radius: 0;
+    font-size: 14px;
+    font-weight: normal;
+    width: 140px;
+    border: none;
+    text-align: center;
+}
+
+.gallery_tabs ul li a {
+    background-color: #808285;
+    margin-left: 8px;
+    color: #fff;
+    font-size: 15px;
+
+    text-align: center;
+}
+
+.gallery_tabs ul li a.active {
+    background-color: #28388e;
+		opacity: 1;
+}
+
+.gal .nav-tabs {
+    border-bottom:  none;
+    margin-bottom: 50px;
+      margin-top: 50px;
+}
+
+#all-tab{
+  border-radius: 7px 0px 0px 7px;
+  border-left: 1px solid;
+  margin-left: 0px!important;
+}
+
+#teachers-tab{
+    border-radius: 0px 7px 7px 0px;
+}
+
+.gal .nav-link {
+  color: #c2c2c2 !important;
+  background-color: #fff;
+  opacity: 1;
+  border-radius: 0;
+  font-size: 16px;
+  font-weight: normal;
+  width: 160px;
+  border: #c2c2c2 solid;
+  text-align: center;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  border-width: 1px 1px 1px 0px;
+}
+.gal .nav-link.active, .gal .nav-link:hover {
+  color: #fff !important;
+    background: #83bf45;
+    opacity: 1;
+    border: #83bf45 solid 1px;
+}
+.tab-page a {
+  display: flex;
+  justify-content: center;
+}
+.gallery:after {
+  content: '';
+  display: block;
+  height: 2px;
+  margin: .5em 0 1.4em;
+  background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0) 0%, rgba(77, 77, 77, 1) 50%, rgba(0, 0, 0, 0) 100%);
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0) 0%, rgba(77, 77, 77, 1) 50%, rgba(0, 0, 0, 0) 100%);
+}
+.gallery img {
+  width: 100%;
+  border-radius: 4px;
+	margin-bottom: 15px;
+}
+.gallery a {
+  overflow: hidden;
+  outline: none;
+      margin-bottom: 1rem;
+}
+
+.pad_5{
+	padding:5px;
+}
+.gal {
+    padding-bottom: 40px;
+}
+
+@media (max-width: 770px){
+  .gal .nav-tabs {
+    display: block;
+    text-align: center;
+    overflow: auto;
+    white-space: nowrap;
+  }
+.gal .nav-tabs li {
+    margin-bottom: 10px;
+    display: inline-block;
+}
+
+.gal .nav-link{
+  margin-left:-4px;
+}
+	
+#parentcaro h1 {
+    font-size: 28px;
+}
+	
+}
+
+@media (max-width : 570px){
+.pad_5{
+	padding: 10px 10px 0px;
+    margin-bottom: -10px;
+}
+.gal {
+    padding-bottom: 20px;
+}
+}
+.teach-carousel-item{
+  position: relative;
+}
+.overlay {
+  position: absolute;
+  bottom: 0;
+  background: #419946ad;
+  background: rgba(65, 153, 70, 0.9); /* Black see-through */
+  color: #f1f1f1;
+  width: 100%;
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  font-size: 20px;
+  /* padding: 20px; */
+  text-align: center;
+  bottom: 0;
+}
+.teach-carousel-item:hover .overlay {
+  opacity: 1;
+}
+
+
+/*  Akhil Styles  */
+
+.home_stu {
+    background-color: transparent !important;
+}
+
+.home_stu h1 {
+    color: #000 !important;
+}
+
+.home_stu .client-box {
+    background: #f5f5f5;
+    min-height: 558px;
+}
+
+/*  Ends Here  */
