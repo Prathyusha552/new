@@ -1,0 +1,36 @@
+#kids-contact-us .contact-fileds-section{
+  padding-right:0px !important;
+  padding-left:0px !important;
+}
+#kids-contact-us .inner-bg{
+  background-image:url(../img/kids-contact.jpg);min-height: 587px;background-size: cover;
+  /* background-color:#339999; */
+}
+#kids-contact-us .inner-bg h2, #kids-contact-us .inner-bg p{
+  color:#fff !important;
+}
+#kids-contact-us .sendtext{color:#fff !important;}
+#kids-contact-us .sendtext{background-color:#ff9999;}
+#kids-contact-us .inner-bg-left{padding:20px;}
+#kids-contact-us .form-control{border-radius: 0px !important;}
+#kids-contact-us .inner-bg-right{padding:20px 75px;}
+#kids-contact-us .inner-bg-right p{color:#000 !important; margin-bottom: 0px !important;}
+#kids-contact-us .inner-bg-right h6 a{color:#ff9999 !important;}
+#kids-contact-us .inner-bg-right img{margin-bottom: 0px !important;}
+#kids-contact-us .hilights a:hover {border-bottom-color:#fff !important;}
+#kids-contact-us .social-list{margin-bottom: 2px;list-style: none;}
+#kids-contact-us .social-list li{display: inline-block;padding:18px;}
+#kids-contact-us .hilights a:hover{color:#ff9999 !important;}
+
+@media only screen and (max-width:768px){
+  #kids-contact-us .contact-fileds-section{
+    padding-right:15px !important;
+    padding-left:15px !important;
+  }
+  #kids-contact-us .inner-bg-right{
+    padding:0px !important;
+  }
+  .mobile-fsize a{
+    font-size:14px !important;
+  }
+}

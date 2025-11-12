@@ -1,0 +1,171 @@
+@charset "utf-8";
+/* CSS Document */
+
+@media (max-width : 1446px) {
+	.bantext{
+		top: 25vh;
+	}
+	.com_mar {
+		margin: 100px 0px;
+	}
+	.about_us_sec {
+		margin-top: 90px;
+	}
+	.about_us_sec-1 {
+		margin-top: 48px;
+	}
+}
+
+@media (max-width : 1366px) {
+	.bantext h2 {
+		font-size: 39px;
+		line-height: 55px;
+	}
+	.header_div.home_page .max_width {
+		width: 90%;
+	}
+}
+
+@media (max-width : 990px) {
+	.kids_css .hilights:after {
+		display: none;
+	}
+	.hilights .row {
+		margin-top: 0px;
+	}
+	.innerHilight {
+		margin: 20px 0px;
+	}
+	.com_mar {
+		margin: 50px 0px;
+	}
+	.features h5 {
+		margin-bottom: 35px;
+	}
+	.ceomsg .col-md-4{
+		padding: 20px;
+	}
+	.ceomsg {
+		background-position: 66% 50%;
+    	min-height: 470px;
+	}
+	#footerhome {
+		padding: 25px 0px;
+		text-align: center;
+	}
+	.mobile_icon {
+		display: block;
+	}
+
+	#active_nav {
+		display: none;
+	}
+	.header_div {
+		height: 70px;
+		line-height: 60px;
+	}
+	.banner_div {
+		width: 97%;
+	}
+	.site_logo img {
+		width: 70%;
+	}
+	.col-md-5.d-flex.align-items-center {
+		justify-content: center;
+	}
+	.col-md-4.d-flex.justify-content-md-end.align-items-center {
+		justify-content: center;
+	}
+	.max_width {
+		width: 98%;
+	}
+	.bantext {
+		position: static;
+		color: #000;
+		text-align: center;
+		margin-top: 25px;
+	}
+	.about_us_sec {
+		background-position: 50% 10%;
+		background-size: 100%;
+	}
+	.bantext p {
+		font-size: 15px;
+	}
+	.bantext h2 {
+		font-size: 29px;
+		line-height: 42px;
+	}
+	.inner_banner {
+		background-position: center;
+		min-height: 470px;
+	}
+	.banner_div h3{
+		font-size: 60px;
+	}
+	a.fixed img {
+		width: 40%;
+	}
+	.header_div.home_page .mobile_icon {
+		text-align: left;
+	}
+
+	.bannerimg.home_banner {
+		min-height: 500px;
+		background-position: center;
+	}
+
+	.home_banner_txt {
+		top: 33%;
+	}
+
+	.home_banner_txt h3 {
+		font-size: 45px;
+	}
+
+	.home_banner_txt img {
+		width: 10%;
+	}
+
+	.count_name {
+		margin-bottom: 25px;
+	}
+
+	.number_Sec {
+		padding-bottom: 35px;
+	}
+
+	.latest_news, .number_Sec, .director_sec {
+		margin-top: 50px;
+	}
+
+	.director_sec img + p {
+		margin-bottom: 45px;
+	}
+
+	.footer_home_sec ul li:last-child {
+		margin-bottom: 25px;
+	}
+	
+	.footer_home_sec {
+		margin-top: 30px;
+	}
+}
+
+@media (max-width : 500px) {
+	.inner_banner {
+		min-height: 400px;
+	}
+	.about_us_sec {
+		margin-top: 60px;
+	}
+	.banner_div h3{
+		font-size: 50px;
+	}
+	a.fixed img {
+		width: 43%;
+	}
+	.bannerimg.home_banner {
+		min-height: 400px;
+	}
+}

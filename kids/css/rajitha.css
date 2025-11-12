@@ -1,0 +1,50 @@
+/* for contact page styles */
+#contact-us .contact-fileds-section{padding-right:0px !important;padding-left:0px !important;}
+#contact-us .inner-bg{background-color:#419945;}
+#contact-us .inner-bg h2, #contact-us .inner-bg p{color:#fff !important;}
+#contact-us .sendtext{color:#fff !important;}
+#contact-us .sendtext{background-color:#99cc33;}
+#contact-us .inner-bg-left{padding:20px;}
+#contact-us .form-control{border-radius: 0px !important;}
+#contact-us .inner-bg-right{padding:20px 75px;}
+#contact-us .inner-bg-right p{color:#000 !important; margin-bottom: 0px !important;}
+#contact-us .inner-bg-right h6 a{color:#99cc33 !important;}
+#contact-us .inner-bg-right img{margin-bottom: 0px !important;}
+#contact-us .hilights a:hover {border-bottom-color:#fff !important;}
+#contact-us .social-list{list-style: none;}
+#contact-us .social-list li{float: left;padding:18px;}
+/* end  */
+
+/* for campus page styles */
+#campu .breadcrumb{
+background-color:#e9ecef00 !important;
+  display: -webkit-inline-box !important;
+}
+/* #campu .breadcrumb li, li a{
+color:#fff !important;
+} */
+#campus .bantext{left:0% !important;}
+#campus .card{ border-radius:0px !important; margin-left:5px;margin-top:5px;}
+#campus .first-card{background-color:#cc9966;}
+#campus .second-card{background-color:#ff9999;}
+#campus .third-card{background-color:#ffcc66;}
+#campus .fourth-card{background-color: #66cccc}
+#campus .com_mar{margin:48px 0px !important;}
+#campus .bantext p{font-weight: 100 !important;}
+/* end */
+
+@media only screen and (max-width:768px){
+  #contact-us .contact-fileds-section{
+    padding-right:15px !important;
+    padding-left:15px !important;
+  }
+  #contact-us .inner-bg-right{
+    padding:0px !important;
+  }
+  .mobile-fsize a{
+    font-size:14px !important;
+  }
+  #campus .features .row{margin:0px !important;}
+  #campus .bantext{margin-top:-93px !important;}
+  #campus .bantext h5{color:#fff !important;}
+}
